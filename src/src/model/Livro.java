@@ -7,13 +7,14 @@ public class Livro {
     private int anoPublicacao;
     private boolean statusDisponivel;
 
-    public Livro(int idLivro, String titulo, String autor, int anoPublicacao, boolean statusDisponivel){
+    public Livro(int idLivro, String titulo, String autor, int anoPublicacao) {
         this.idLivro = idLivro;
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
         this.statusDisponivel = true;
     }
+
 
     // GETTER E SETTER DE ID
 

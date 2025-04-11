@@ -42,4 +42,13 @@ public class Emprestimo {
     }
 
 
+    public Livro getLivro() {
+        return this.livro;
+    }
+
+    public Usuario getUsuario() {
+        return this.usuario;
+    }
+
+
 }
